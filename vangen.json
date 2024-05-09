@@ -1,0 +1,21 @@
+{
+  "domain": "go.akashd.io",
+  "docsDomain": "pkg.go.dev",
+  "index": true,
+  "repositories": [
+    {
+      "prefix": "",
+      "type": "git",
+      "main": true,
+      "url": "https://github.com/akash-network/akash-api/tree/sdk-47/sdk",
+      "source": {
+        "home": "https://github.com/akash-network/akash-api/tree/sdk-47/sdk",
+        "dir": "https://github.com/akash-network/akash-api/tree/sdk-47/sdk{/dir}",
+        "file": "https://github.com/akash-network/akash-api/blob/sdk-47/sdk{/dir}/{file}#L{line}"
+      },
+      "subs": [
+
+      ]
+    }
+  ]
+}

@@ -6,15 +6,15 @@
     {
       "prefix": "",
       "type": "git",
-      "main": true,
-      "url": "https://github.com/akash-network/akash-api/tree/sdk-47/sdk",
+      "main": false,
+      "url": "https://github.com/akash-network/akash-api/tree/sdk-47",
       "source": {
-        "home": "https://github.com/akash-network/akash-api/tree/sdk-47/sdk",
-        "dir": "https://github.com/akash-network/akash-api/tree/sdk-47/sdk{/dir}",
-        "file": "https://github.com/akash-network/akash-api/blob/sdk-47/sdk{/dir}/{file}#L{line}"
+        "home": "https://github.com/akash-network/akash-api/tree/sdk-47",
+        "dir": "https://github.com/akash-network/akash-api/tree/sdk-47{/dir}",
+        "file": "https://github.com/akash-network/akash-api/blob/sdk-47{/dir}/{file}#L{line}"
       },
       "subs": [
-
+        "sdk"
       ]
     }
   ]

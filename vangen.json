@@ -9,9 +9,12 @@
       "main": false,
       "url": "https://github.com/akash-network/akash-api",
       "source": {
-        "home": "https://github.com/akash-network/akash-api/tree/sdk-47",
+        "home": "https://github.com/akash-network/akash-api",
         "dir": "https://github.com/akash-network/akash-api/tree/sdk-47{/dir}",
         "file": "https://github.com/akash-network/akash-api/blob/sdk-47{/dir}/{file}#L{line}"
+      },
+       "website": {
+        "url": "https://github.com/akash-network/akash-api"
       },
       "subs": [
         "sdk"

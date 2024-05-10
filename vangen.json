@@ -7,7 +7,7 @@
       "prefix": "",
       "type": "git",
       "main": false,
-      "url": "https://github.com/akash-network/akash-api/tree/sdk-47",
+      "url": "https://github.com/akash-network/akash-api",
       "source": {
         "home": "https://github.com/akash-network/akash-api/tree/sdk-47",
         "dir": "https://github.com/akash-network/akash-api/tree/sdk-47{/dir}",

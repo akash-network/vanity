@@ -17,7 +17,7 @@
         "url": "https://github.com/akash-network/akash-api"
       },
       "subs": [
-        "sdk"
+        "go"
       ]
     }
   ]

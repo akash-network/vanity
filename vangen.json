@@ -18,7 +18,8 @@
       },
       "subs": [
         "go",
-        "go/sdl"
+        "go/sdl",
+        "go/cli"
       ]
     }
   ]

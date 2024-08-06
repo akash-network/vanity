@@ -19,7 +19,8 @@
       "subs": [
         "go",
         "go/sdl",
-        "go/cli"
+        "go/cli",
+        "go/node/migrate"
       ]
     }
   ]

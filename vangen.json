@@ -7,21 +7,31 @@
       "prefix": "",
       "type": "git",
       "main": false,
+      "url": "https://github.com/akash-network/node",
+      "source": {
+        "home": "https://github.com/akash-network/node",
+        "dir": "https://github.com/akash-network/node/tree/sdk-47{/dir}",
+        "file": "https://github.com/akash-network/node/blob/sdk-47{/dir}/{file}#L{line}"
+      },
+      "website": {
+        "url": "https://github.com/akash-network/node"
+      },
+      "subs": ["node"]
+    },
+    {
+      "prefix": "",
+      "type": "git",
+      "main": false,
       "url": "https://github.com/akash-network/akash-api",
       "source": {
         "home": "https://github.com/akash-network/akash-api",
         "dir": "https://github.com/akash-network/akash-api/tree/sdk-47{/dir}",
         "file": "https://github.com/akash-network/akash-api/blob/sdk-47{/dir}/{file}#L{line}"
       },
-       "website": {
+      "website": {
         "url": "https://github.com/akash-network/akash-api"
       },
-      "subs": [
-        "go",
-        "go/sdl",
-        "go/cli",
-        "go/node/migrate"
-      ]
+      "subs": ["go", "go/sdl", "go/cli", "go/node/migrate"]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "index": true,
   "repositories": [
     {
-      "prefix": "",
+      "prefix": "node",
       "type": "git",
       "main": false,
       "url": "https://github.com/akash-network/node",
@@ -19,7 +19,7 @@
       "subs": ["node"]
     },
     {
-      "prefix": "",
+      "prefix": "akash-api",
       "type": "git",
       "main": false,
       "url": "https://github.com/akash-network/akash-api",

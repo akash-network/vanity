@@ -1,12 +1,11 @@
 {
   "domain": "pkg.akt.dev",
-  "docsDomain": "pkg.go.dev",
   "index": true,
   "repositories": [
     {
       "prefix": "node",
       "type": "git",
-      "main": false,
+      "main": true,
       "url": "https://github.com/akash-network/node",
       "source": {
         "home": "https://github.com/akash-network/node",
@@ -15,13 +14,12 @@
       },
       "website": {
         "url": "https://github.com/akash-network/node"
-      },
-      "subs": ["node"]
+      }
     },
     {
-      "prefix": "akash-api",
+      "prefix": "",
       "type": "git",
-      "main": false,
+      "main": true,
       "url": "https://github.com/akash-network/akash-api",
       "source": {
         "home": "https://github.com/akash-network/akash-api",
@@ -31,7 +29,7 @@
       "website": {
         "url": "https://github.com/akash-network/akash-api"
       },
-      "subs": ["go", "go/sdl", "go/cli", "go/node/migrate"]
+      "subs": ["go", "go/cli", "go/sdl", "go/node/migrate"]
     }
   ]
 }

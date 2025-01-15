@@ -1,0 +1,21 @@
+---
+host: pkg.akt.dev
+modules:
+  - path: /node
+    vcs: git
+    repo-url: https://github.com/akash-network/node
+  - path: /go
+    vcs: git
+    repo-url: https://github.com/akash-network/akash-api
+  - path: /go/cli
+    vcs: git
+    repo-url: https://github.com/akash-network/akash-api
+  - path: /go/cli
+    vcs: git
+    repo-url: https://github.com/akash-network/akash-api
+  - path: /go/sdl
+    vcs: git
+    repo-url: https://github.com/akash-network/akash-api
+  - path: /go/node/migrate
+    vcs: git
+    repo-url: https://github.com/akash-network/akash-api

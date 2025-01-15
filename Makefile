@@ -16,9 +16,22 @@ ifndef VANITY_ROOT
 $(error "VANITY_ROOT is not set. might need to run \"direnv allow\"")
 endif
 
+MODGEN_VERSION   ?= latest
+MODGEN           := $(DEVCACHE_BIN)/modgen
+MODGEN_VERSION_FILE := $(DEVCACHE_VERSIONS)/modgen/$(VANGEN_VERSION)
+
 VANGEN_VERSION   ?= latest
 VANGEN           := $(DEVCACHE_BIN)/vangen
 VANGEN_VERSION_FILE := $(DEVCACHE_VERSIONS)/vangen/$(VANGEN_VERSION)
+
+$(MODGEN_VERSION_FILE): $(DEVCACHE)
+	@echo "installing modgen $(MODGEN_VERSION) ..."
+	rm -f $(MODGEN)
+	GOBIN=$(DEVCACHE_BIN) go install essaim.dev/modgen/cmd/modgen@$(VANGEN_VERSION)
+	rm -rf "$(dir $@)"
+	mkdir -p "$(dir $@)"
+	touch $@
+$(MODGEN): $(MODGEN_VERSION_FILE)
 
 $(VANGEN_VERSION_FILE): $(DEVCACHE)
 	@echo "installing vangen $(VANGEN_VERSION) ..."
@@ -38,5 +51,6 @@ $(DEVCACHE):
 
 cache: $(DEVCACHE)
 
-vangen: $(VANGEN)
-	$(VANGEN) -config vangen.json -out .
+vangen: $(MODGEN)
+	$(MODGEN) -config modgen.yaml -target=./ 
+#	$(VANGEN) -config vangen.json -out .

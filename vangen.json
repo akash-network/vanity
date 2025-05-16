@@ -29,7 +29,14 @@
       "website": {
         "url": "https://github.com/akash-network/akash-api"
       },
-      "subs": ["go", "go/cli", "go/sdl", "go/node/migrate"]
+      "subs": [
+        "go",
+        "go/cli",
+        "go/sdl",
+        "go/node/migrate",
+        "testdata",
+        "specs"
+      ]
     }
   ]
 }

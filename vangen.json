@@ -20,23 +20,16 @@
       "prefix": "",
       "type": "git",
       "main": true,
-      "url": "https://github.com/akash-network/akash-api",
+      "url": "https://github.com/akash-network/chain-sdk",
       "source": {
-        "home": "https://github.com/akash-network/akash-api",
-        "dir": "https://github.com/akash-network/akash-api/tree/sdk-47{/dir}",
-        "file": "https://github.com/akash-network/akash-api/blob/sdk-47{/dir}/{file}#L{line}"
+        "home": "https://github.com/akash-network/chain-sdk",
+        "dir": "https://github.com/akash-network/chain-sdk/tree/main{/dir}",
+        "file": "https://github.com/akash-network/chain-sdk/blob/main{/dir}/{file}#L{line}"
       },
       "website": {
-        "url": "https://github.com/akash-network/akash-api"
+        "url": "https://github.com/akash-network/chain-sdk"
       },
-      "subs": [
-        "go",
-        "go/cli",
-        "go/sdl",
-        "go/node/migrate",
-        "testdata",
-        "specs"
-      ]
+      "subs": ["go", "go/cli", "go/sdl", "testdata", "specs"]
     }
   ]
 }

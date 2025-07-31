@@ -9,8 +9,8 @@
       "url": "https://github.com/akash-network/node",
       "source": {
         "home": "https://github.com/akash-network/node",
-        "dir": "https://github.com/akash-network/node/tree/sdk-47{/dir}",
-        "file": "https://github.com/akash-network/node/blob/sdk-47{/dir}/{file}#L{line}"
+        "dir": "https://github.com/akash-network/node/tree/sdk50{/dir}",
+        "file": "https://github.com/akash-network/node/blob/sdk50{/dir}/{file}#L{line}"
       },
       "website": {
         "url": "https://github.com/akash-network/node"

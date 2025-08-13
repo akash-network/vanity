@@ -9,3 +9,4 @@ We use [vangen](https://github.com/leighmcculloch/vangen) for generating this re
 - Make changes to `vangen.json`
 - `make vangen`
 - Push your changes
+- check

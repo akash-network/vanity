@@ -9,8 +9,22 @@
       "url": "https://github.com/akash-network/node",
       "source": {
         "home": "https://github.com/akash-network/node",
-        "dir": "https://github.com/akash-network/node/tree/sdk50{/dir}",
-        "file": "https://github.com/akash-network/node/blob/sdk50{/dir}/{file}#L{line}"
+        "dir": "https://github.com/akash-network/node/tree/main{/dir}",
+        "file": "https://github.com/akash-network/node/blob/main{/dir}/{file}#L{line}"
+      },
+      "website": {
+        "url": "https://github.com/akash-network/node"
+      }
+    },
+    {
+      "prefix": "node/v2",
+      "type": "git",
+      "main": true,
+      "url": "https://github.com/akash-network/node",
+      "source": {
+        "home": "https://github.com/akash-network/node",
+        "dir": "https://github.com/akash-network/node/tree/wasm{/dir}",
+        "file": "https://github.com/akash-network/node/blob/wasm{/dir}/{file}#L{line}"
       },
       "website": {
         "url": "https://github.com/akash-network/node"

@@ -44,6 +44,20 @@
         "url": "https://github.com/akash-network/chain-sdk"
       },
       "subs": ["go", "go/cli", "go/sdl", "testdata", "specs"]
+    },
+    {
+      "prefix": "akt",
+      "type": "git",
+      "main": true,
+      "url": "https://github.com/akash-network/akt",
+      "source": {
+        "home": "https://github.com/akash-network/akt",
+        "dir": "https://github.com/akash-network/akt/tree/main{/dir}",
+        "file": "https://github.com/akash-network/akt/blob/main{/dir}/{file}#L{line}"
+      },
+      "website": {
+        "url": "https://github.com/akash-network/akt"
+      }
     }
   ]
 }
